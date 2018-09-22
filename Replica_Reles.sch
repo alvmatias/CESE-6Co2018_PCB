@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Replica_Reles-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R5
+L Device:R R1
 U 1 1 5BA4F1BA
 P 2600 1100
-F 0 "R5" V 2500 1050 50  0000 L CNN
+F 0 "R1" V 2500 1050 50  0000 L CNN
 F 1 "1000" V 2600 1000 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2530 1100 50  0001 C CNN
 F 3 "~" H 2600 1100 50  0001 C CNN
@@ -25,10 +26,10 @@ F 3 "~" H 2600 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L Device:R R2
 U 1 1 5BA4F21A
 P 3500 1950
-F 0 "R6" V 3400 1950 50  0000 C CNN
+F 0 "R2" V 3400 1950 50  0000 C CNN
 F 1 "510" V 3500 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3430 1950 50  0001 C CNN
 F 3 "~" H 3500 1950 50  0001 C CNN
@@ -36,10 +37,10 @@ F 3 "~" H 3500 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_ALT D6
+L Device:D_ALT D1
 U 1 1 5BA4F2A1
 P 3750 1300
-F 0 "D6" V 3700 1100 50  0000 L CNN
+F 0 "D1" V 3700 1100 50  0000 L CNN
 F 1 "1N4148" V 3800 950 50  0000 L CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 3750 1300 50  0001 C CNN
 F 3 "~" H 3750 1300 50  0001 C CNN
@@ -47,10 +48,10 @@ F 3 "~" H 3750 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Isolator:PC817 U3
+L Isolator:PC817 U1
 U 1 1 5BA4F55D
 P 2950 1450
-F 0 "U3" H 2950 1775 50  0000 C CNN
+F 0 "U1" H 2950 1775 50  0000 C CNN
 F 1 "PC817" H 2950 1684 50  0000 C CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 2750 1250 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2950 1450 50  0001 L CNN
@@ -58,10 +59,10 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2950 1450 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q3
+L Transistor_BJT:S8050 Q1
 U 1 1 5BA4F7BD
 P 3950 1950
-F 0 "Q3" H 4141 1996 50  0000 L CNN
+F 0 "Q1" H 4141 1996 50  0000 L CNN
 F 1 "S8050" H 4141 1905 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 1875 50  0001 L CIN
 F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 3950 1950 50  0001 L CNN
@@ -69,12 +70,12 @@ F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 3950 1950 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J1
+L Connector_Generic:Conn_01x10 J3
 U 1 1 5BA4FCEA
 P 800 1400
-F 0 "J1" V 1050 1400 50  0000 C CNN
+F 0 "J3" V 1050 1400 50  0000 C CNN
 F 1 "Tira de Pines Macho" V 950 1350 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 800 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 800 1400 50  0001 C CNN
 F 3 "~" H 800 1400 50  0001 C CNN
 	1    800  1400
 	-1   0    0    -1  
@@ -91,10 +92,10 @@ F 3 "~" H 1200 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L power:GND #PWR04
 U 1 1 5BA5163E
 P 1100 2000
-F 0 "#PWR03" H 1100 1750 50  0001 C CNN
+F 0 "#PWR04" H 1100 1750 50  0001 C CNN
 F 1 "GND" H 1105 1827 50  0000 C CNN
 F 2 "" H 1100 2000 50  0001 C CNN
 F 3 "" H 1100 2000 50  0001 C CNN
@@ -102,10 +103,10 @@ F 3 "" H 1100 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D3
+L Device:LED_ALT IN1
 U 1 1 5BA4F3A4
 P 2400 1550
-F 0 "D3" H 2400 1650 50  0000 C CNN
+F 0 "IN1" H 2400 1650 50  0000 C CNN
 F 1 "LED ROJO SMD" H 2400 1750 50  0000 C CNN
 F 2 "LED_SMD:LED_1206_3216Metric" H 2400 1550 50  0001 C CNN
 F 3 "~" H 2400 1550 50  0001 C CNN
@@ -129,10 +130,10 @@ Wire Wire Line
 Wire Wire Line
 	3750 1950 3650 1950
 $Comp
-L power:GND #PWR09
+L power:GND #PWR05
 U 1 1 5BA5930D
 P 4050 2200
-F 0 "#PWR09" H 4050 1950 50  0001 C CNN
+F 0 "#PWR05" H 4050 1950 50  0001 C CNN
 F 1 "GND" H 4055 2027 50  0000 C CNN
 F 2 "" H 4050 2200 50  0001 C CNN
 F 3 "" H 4050 2200 50  0001 C CNN
@@ -146,12 +147,12 @@ Wire Wire Line
 Wire Wire Line
 	4050 1650 4050 1750
 $Comp
-L Connector_Generic:Conn_01x03 J4
+L Connector_Generic:Conn_01x03 J1
 U 1 1 5BA59E37
 P 5200 1300
-F 0 "J4" H 5279 1342 50  0000 L CNN
+F 0 "J1" H 5279 1342 50  0000 L CNN
 F 1 "Bornera" H 5279 1251 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 5200 1300 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 5200 1300 50  0001 C CNN
 F 3 "~" H 5200 1300 50  0001 C CNN
 	1    5200 1300
 	1    0    0    -1  
@@ -187,10 +188,10 @@ Wire Wire Line
 Wire Wire Line
 	1100 1000 1100 800 
 $Comp
-L power:+5V #PWR02
+L power:+5V #PWR01
 U 1 1 5BA5CB77
 P 1100 800
-F 0 "#PWR02" H 1100 650 50  0001 C CNN
+F 0 "#PWR01" H 1100 650 50  0001 C CNN
 F 1 "+5V" H 1115 973 50  0000 C CNN
 F 2 "" H 1100 800 50  0001 C CNN
 F 3 "" H 1100 800 50  0001 C CNN
@@ -230,10 +231,10 @@ IN2
 Text Label 1300 1800 2    50   ~ 0
 IN1
 $Comp
-L power:+5V #PWR06
+L power:+5V #PWR02
 U 1 1 5BA635AD
 P 2600 850
-F 0 "#PWR06" H 2600 700 50  0001 C CNN
+F 0 "#PWR02" H 2600 700 50  0001 C CNN
 F 1 "+5V" H 2615 1023 50  0000 C CNN
 F 2 "" H 2600 850 50  0001 C CNN
 F 3 "" H 2600 850 50  0001 C CNN
@@ -241,7 +242,7 @@ F 3 "" H 2600 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2100 1550 0    50   ~ 0
-IN8
+IN1
 Wire Wire Line
 	2250 1550 2100 1550
 Wire Wire Line
@@ -249,10 +250,10 @@ Wire Wire Line
 Wire Wire Line
 	4450 1600 4450 1650
 $Comp
-L Relay:SANYOU_SRD_Form_C K3
+L Relay:SANYOU_SRD_Form_C K1
 U 1 1 5BA4DF94
 P 4250 1300
-F 0 "K3" H 4250 1800 50  0000 L CNN
+F 0 "K1" H 4250 1800 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 3950 1700 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 4700 1250 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 4250 1300 50  0001 C CNN
@@ -281,10 +282,10 @@ Wire Notes Line
 Text Notes 800  2350 0    50   ~ 10
 ENTRADAS\n
 $Comp
-L Device:R R11
+L Device:R R3
 U 1 1 5BC08FE0
 P 7350 1100
-F 0 "R11" V 7250 1050 50  0000 L CNN
+F 0 "R3" V 7250 1050 50  0000 L CNN
 F 1 "1000" V 7350 1000 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7280 1100 50  0001 C CNN
 F 3 "~" H 7350 1100 50  0001 C CNN
@@ -292,10 +293,10 @@ F 3 "~" H 7350 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R14
+L Device:R R4
 U 1 1 5BC08FE7
 P 8250 1950
-F 0 "R14" V 8150 1950 50  0000 C CNN
+F 0 "R4" V 8150 1950 50  0000 C CNN
 F 1 "510" V 8250 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 8180 1950 50  0001 C CNN
 F 3 "~" H 8250 1950 50  0001 C CNN
@@ -303,10 +304,10 @@ F 3 "~" H 8250 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_ALT D14
+L Device:D_ALT D2
 U 1 1 5BC08FEE
 P 8500 1300
-F 0 "D14" V 8450 1100 50  0000 L CNN
+F 0 "D2" V 8450 1100 50  0000 L CNN
 F 1 "1N4148" V 8550 950 50  0000 L CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 8500 1300 50  0001 C CNN
 F 3 "~" H 8500 1300 50  0001 C CNN
@@ -314,10 +315,10 @@ F 3 "~" H 8500 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Isolator:PC817 U6
+L Isolator:PC817 U2
 U 1 1 5BC08FF5
 P 7700 1450
-F 0 "U6" H 7700 1775 50  0000 C CNN
+F 0 "U2" H 7700 1775 50  0000 C CNN
 F 1 "PC817" H 7700 1684 50  0000 C CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 7500 1250 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7700 1450 50  0001 L CNN
@@ -325,10 +326,10 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7700 1450 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q6
+L Transistor_BJT:S8050 Q2
 U 1 1 5BC08FFC
 P 8700 1950
-F 0 "Q6" H 8891 1996 50  0000 L CNN
+F 0 "Q2" H 8891 1996 50  0000 L CNN
 F 1 "S8050" H 8891 1905 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8900 1875 50  0001 L CIN
 F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 8700 1950 50  0001 L CNN
@@ -336,10 +337,10 @@ F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 8700 1950 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D11
+L Device:LED_ALT IN2
 U 1 1 5BC0900A
 P 7150 1550
-F 0 "D11" H 7150 1650 50  0000 C CNN
+F 0 "IN2" H 7150 1650 50  0000 C CNN
 F 1 "LED ROJO SMD" H 7150 1750 50  0000 C CNN
 F 2 "LED_SMD:LED_1206_3216Metric" H 7150 1550 50  0001 C CNN
 F 3 "~" H 7150 1550 50  0001 C CNN
@@ -363,10 +364,10 @@ Wire Wire Line
 Wire Wire Line
 	8500 1950 8400 1950
 $Comp
-L power:GND #PWR017
+L power:GND #PWR06
 U 1 1 5BC09019
 P 8800 2200
-F 0 "#PWR017" H 8800 1950 50  0001 C CNN
+F 0 "#PWR06" H 8800 1950 50  0001 C CNN
 F 1 "GND" H 8805 2027 50  0000 C CNN
 F 2 "" H 8800 2200 50  0001 C CNN
 F 3 "" H 8800 2200 50  0001 C CNN
@@ -380,12 +381,12 @@ Wire Wire Line
 Wire Wire Line
 	8800 1650 8800 1750
 $Comp
-L Connector_Generic:Conn_01x03 J7
+L Connector_Generic:Conn_01x03 J2
 U 1 1 5BC09022
 P 9950 1300
-F 0 "J7" H 10029 1342 50  0000 L CNN
+F 0 "J2" H 10029 1342 50  0000 L CNN
 F 1 "Bornera" H 10029 1251 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 9950 1300 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 9950 1300 50  0001 C CNN
 F 3 "~" H 9950 1300 50  0001 C CNN
 	1    9950 1300
 	1    0    0    -1  
@@ -413,10 +414,10 @@ Wire Wire Line
 Wire Wire Line
 	9650 1200 9750 1200
 $Comp
-L power:+5V #PWR014
+L power:+5V #PWR03
 U 1 1 5BC09034
 P 7350 850
-F 0 "#PWR014" H 7350 700 50  0001 C CNN
+F 0 "#PWR03" H 7350 700 50  0001 C CNN
 F 1 "+5V" H 7365 1023 50  0000 C CNN
 F 2 "" H 7350 850 50  0001 C CNN
 F 3 "" H 7350 850 50  0001 C CNN
@@ -424,7 +425,7 @@ F 3 "" H 7350 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6850 1550 0    50   ~ 0
-IN7
+IN2
 Wire Wire Line
 	7000 1550 6850 1550
 Wire Wire Line
@@ -432,10 +433,10 @@ Wire Wire Line
 Wire Wire Line
 	9200 1600 9200 1650
 $Comp
-L Relay:SANYOU_SRD_Form_C K6
+L Relay:SANYOU_SRD_Form_C K2
 U 1 1 5BC0903E
 P 9000 1300
-F 0 "K6" H 9000 1800 50  0000 L CNN
+F 0 "K2" H 9000 1800 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 8700 1700 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 9450 1250 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 9000 1300 50  0001 C CNN
@@ -460,10 +461,10 @@ Connection ~ 8500 950
 Wire Wire Line
 	8800 2150 8800 2200
 $Comp
-L Device:R R1
+L Device:R R5
 U 1 1 5BC0CC79
 P 1300 3200
-F 0 "R1" V 1200 3150 50  0000 L CNN
+F 0 "R5" V 1200 3150 50  0000 L CNN
 F 1 "1000" V 1300 3100 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 1230 3200 50  0001 C CNN
 F 3 "~" H 1300 3200 50  0001 C CNN
@@ -471,10 +472,10 @@ F 3 "~" H 1300 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Device:R R6
 U 1 1 5BC0CC80
 P 2200 4050
-F 0 "R3" V 2100 4050 50  0000 C CNN
+F 0 "R6" V 2100 4050 50  0000 C CNN
 F 1 "510" V 2200 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2130 4050 50  0001 C CNN
 F 3 "~" H 2200 4050 50  0001 C CNN
@@ -482,10 +483,10 @@ F 3 "~" H 2200 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_ALT D4
+L Device:D_ALT D3
 U 1 1 5BC0CC87
 P 2450 3400
-F 0 "D4" V 2400 3200 50  0000 L CNN
+F 0 "D3" V 2400 3200 50  0000 L CNN
 F 1 "1N4148" V 2500 3050 50  0000 L CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 2450 3400 50  0001 C CNN
 F 3 "~" H 2450 3400 50  0001 C CNN
@@ -493,10 +494,10 @@ F 3 "~" H 2450 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Isolator:PC817 U1
+L Isolator:PC817 U3
 U 1 1 5BC0CC8E
 P 1650 3550
-F 0 "U1" H 1650 3875 50  0000 C CNN
+F 0 "U3" H 1650 3875 50  0000 C CNN
 F 1 "PC817" H 1650 3784 50  0000 C CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 1450 3350 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1650 3550 50  0001 L CNN
@@ -504,10 +505,10 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1650 3550 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q1
+L Transistor_BJT:S8050 Q3
 U 1 1 5BC0CC95
 P 2650 4050
-F 0 "Q1" H 2841 4096 50  0000 L CNN
+F 0 "Q3" H 2841 4096 50  0000 L CNN
 F 1 "S8050" H 2841 4005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 3975 50  0001 L CIN
 F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 2650 4050 50  0001 L CNN
@@ -515,10 +516,10 @@ F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 2650 4050 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D1
+L Device:LED_ALT IN3
 U 1 1 5BC0CCA3
 P 1100 3650
-F 0 "D1" H 1100 3750 50  0000 C CNN
+F 0 "IN3" H 1100 3750 50  0000 C CNN
 F 1 "LED ROJO SMD" H 1100 3850 50  0000 C CNN
 F 2 "LED_SMD:LED_1206_3216Metric" H 1100 3650 50  0001 C CNN
 F 3 "~" H 1100 3650 50  0001 C CNN
@@ -542,10 +543,10 @@ Wire Wire Line
 Wire Wire Line
 	2450 4050 2350 4050
 $Comp
-L power:GND #PWR07
+L power:GND #PWR010
 U 1 1 5BC0CCB2
 P 2750 4300
-F 0 "#PWR07" H 2750 4050 50  0001 C CNN
+F 0 "#PWR010" H 2750 4050 50  0001 C CNN
 F 1 "GND" H 2755 4127 50  0000 C CNN
 F 2 "" H 2750 4300 50  0001 C CNN
 F 3 "" H 2750 4300 50  0001 C CNN
@@ -559,12 +560,12 @@ Wire Wire Line
 Wire Wire Line
 	2750 3750 2750 3850
 $Comp
-L Connector_Generic:Conn_01x03 J2
+L Connector_Generic:Conn_01x03 J4
 U 1 1 5BC0CCBB
 P 3900 3400
-F 0 "J2" H 3850 3750 50  0000 L CNN
+F 0 "J4" H 3850 3750 50  0000 L CNN
 F 1 "Bornera" H 3750 3650 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 3900 3400 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 3900 3400 50  0001 C CNN
 F 3 "~" H 3900 3400 50  0001 C CNN
 	1    3900 3400
 	1    0    0    -1  
@@ -592,10 +593,10 @@ Wire Wire Line
 Wire Wire Line
 	3600 3300 3700 3300
 $Comp
-L power:+5V #PWR04
+L power:+5V #PWR07
 U 1 1 5BC0CCCD
 P 1300 2950
-F 0 "#PWR04" H 1300 2800 50  0001 C CNN
+F 0 "#PWR07" H 1300 2800 50  0001 C CNN
 F 1 "+5V" H 1315 3123 50  0000 C CNN
 F 2 "" H 1300 2950 50  0001 C CNN
 F 3 "" H 1300 2950 50  0001 C CNN
@@ -603,7 +604,7 @@ F 3 "" H 1300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 800  3650 0    50   ~ 0
-IN6
+IN3
 Wire Wire Line
 	950  3650 800  3650
 Wire Wire Line
@@ -611,10 +612,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 3700 3150 3750
 $Comp
-L Relay:SANYOU_SRD_Form_C K1
+L Relay:SANYOU_SRD_Form_C K3
 U 1 1 5BC0CCD7
 P 2950 3400
-F 0 "K1" H 2950 3900 50  0000 L CNN
+F 0 "K3" H 2950 3900 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 2650 3800 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 3400 3350 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 2950 3400 50  0001 C CNN
@@ -650,10 +651,10 @@ F 3 "~" H 4700 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L Device:R R8
 U 1 1 5BC190F6
 P 5600 4050
-F 0 "R9" V 5500 4050 50  0000 C CNN
+F 0 "R8" V 5500 4050 50  0000 C CNN
 F 1 "510" V 5600 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5530 4050 50  0001 C CNN
 F 3 "~" H 5600 4050 50  0001 C CNN
@@ -661,10 +662,10 @@ F 3 "~" H 5600 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_ALT D9
+L Device:D_ALT D4
 U 1 1 5BC190FD
 P 5850 3400
-F 0 "D9" V 5800 3200 50  0000 L CNN
+F 0 "D4" V 5800 3200 50  0000 L CNN
 F 1 "1N4148" V 5900 3050 50  0000 L CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 5850 3400 50  0001 C CNN
 F 3 "~" H 5850 3400 50  0001 C CNN
@@ -694,10 +695,10 @@ F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 6050 4050 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D7
+L Device:LED_ALT IN4
 U 1 1 5BC19119
 P 4500 3650
-F 0 "D7" H 4500 3750 50  0000 C CNN
+F 0 "IN4" H 4500 3750 50  0000 C CNN
 F 1 "LED ROJO SMD" H 4500 3850 50  0000 C CNN
 F 2 "LED_SMD:LED_1206_3216Metric" H 4500 3650 50  0001 C CNN
 F 3 "~" H 4500 3650 50  0001 C CNN
@@ -721,10 +722,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 4050 5750 4050
 $Comp
-L power:GND #PWR012
+L power:GND #PWR011
 U 1 1 5BC19128
 P 6150 4300
-F 0 "#PWR012" H 6150 4050 50  0001 C CNN
+F 0 "#PWR011" H 6150 4050 50  0001 C CNN
 F 1 "GND" H 6155 4127 50  0000 C CNN
 F 2 "" H 6150 4300 50  0001 C CNN
 F 3 "" H 6150 4300 50  0001 C CNN
@@ -743,7 +744,7 @@ U 1 1 5BC19131
 P 7300 3400
 F 0 "J5" H 7250 3750 50  0000 L CNN
 F 1 "Bornera" H 7150 3650 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 7300 3400 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 7300 3400 50  0001 C CNN
 F 3 "~" H 7300 3400 50  0001 C CNN
 	1    7300 3400
 	1    0    0    -1  
@@ -771,10 +772,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 3300 7100 3300
 $Comp
-L power:+5V #PWR010
+L power:+5V #PWR08
 U 1 1 5BC19143
 P 4700 2950
-F 0 "#PWR010" H 4700 2800 50  0001 C CNN
+F 0 "#PWR08" H 4700 2800 50  0001 C CNN
 F 1 "+5V" H 4715 3123 50  0000 C CNN
 F 2 "" H 4700 2950 50  0001 C CNN
 F 3 "" H 4700 2950 50  0001 C CNN
@@ -782,7 +783,7 @@ F 3 "" H 4700 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4200 3650 0    50   ~ 0
-IN5
+IN4
 Wire Wire Line
 	4350 3650 4200 3650
 Wire Wire Line
@@ -818,10 +819,10 @@ Connection ~ 5850 3050
 Wire Wire Line
 	6150 4250 6150 4300
 $Comp
-L Device:R R12
+L Device:R R9
 U 1 1 5BC1FA3B
 P 8150 3200
-F 0 "R12" V 8050 3150 50  0000 L CNN
+F 0 "R9" V 8050 3150 50  0000 L CNN
 F 1 "1000" V 8150 3100 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 8080 3200 50  0001 C CNN
 F 3 "~" H 8150 3200 50  0001 C CNN
@@ -829,10 +830,10 @@ F 3 "~" H 8150 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R15
+L Device:R R10
 U 1 1 5BC1FA42
 P 9050 4050
-F 0 "R15" V 8950 4050 50  0000 C CNN
+F 0 "R10" V 8950 4050 50  0000 C CNN
 F 1 "510" V 9050 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 8980 4050 50  0001 C CNN
 F 3 "~" H 9050 4050 50  0001 C CNN
@@ -840,10 +841,10 @@ F 3 "~" H 9050 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_ALT D15
+L Device:D_ALT D5
 U 1 1 5BC1FA49
 P 9300 3400
-F 0 "D15" V 9250 3200 50  0000 L CNN
+F 0 "D5" V 9250 3200 50  0000 L CNN
 F 1 "1N4148" V 9350 3050 50  0000 L CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 9300 3400 50  0001 C CNN
 F 3 "~" H 9300 3400 50  0001 C CNN
@@ -851,10 +852,10 @@ F 3 "~" H 9300 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Isolator:PC817 U7
+L Isolator:PC817 U5
 U 1 1 5BC1FA50
 P 8500 3550
-F 0 "U7" H 8500 3875 50  0000 C CNN
+F 0 "U5" H 8500 3875 50  0000 C CNN
 F 1 "PC817" H 8500 3784 50  0000 C CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 8300 3350 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8500 3550 50  0001 L CNN
@@ -862,10 +863,10 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8500 3550 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q7
+L Transistor_BJT:S8050 Q5
 U 1 1 5BC1FA57
 P 9500 4050
-F 0 "Q7" H 9691 4096 50  0000 L CNN
+F 0 "Q5" H 9691 4096 50  0000 L CNN
 F 1 "S8050" H 9691 4005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 3975 50  0001 L CIN
 F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 9500 4050 50  0001 L CNN
@@ -873,10 +874,10 @@ F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 9500 4050 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D12
+L Device:LED_ALT IN5
 U 1 1 5BC1FA65
 P 7950 3650
-F 0 "D12" H 7950 3750 50  0000 C CNN
+F 0 "IN5" H 7950 3750 50  0000 C CNN
 F 1 "LED ROJO SMD" H 7950 3850 50  0000 C CNN
 F 2 "LED_SMD:LED_1206_3216Metric" H 7950 3650 50  0001 C CNN
 F 3 "~" H 7950 3650 50  0001 C CNN
@@ -900,10 +901,10 @@ Wire Wire Line
 Wire Wire Line
 	9300 4050 9200 4050
 $Comp
-L power:GND #PWR018
+L power:GND #PWR012
 U 1 1 5BC1FA74
 P 9600 4300
-F 0 "#PWR018" H 9600 4050 50  0001 C CNN
+F 0 "#PWR012" H 9600 4050 50  0001 C CNN
 F 1 "GND" H 9605 4127 50  0000 C CNN
 F 2 "" H 9600 4300 50  0001 C CNN
 F 3 "" H 9600 4300 50  0001 C CNN
@@ -917,12 +918,12 @@ Wire Wire Line
 Wire Wire Line
 	9600 3750 9600 3850
 $Comp
-L Connector_Generic:Conn_01x03 J8
+L Connector_Generic:Conn_01x03 J6
 U 1 1 5BC1FA7D
 P 10750 3400
-F 0 "J8" H 10700 3750 50  0000 L CNN
+F 0 "J6" H 10700 3750 50  0000 L CNN
 F 1 "Bornera" H 10600 3650 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 10750 3400 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 10750 3400 50  0001 C CNN
 F 3 "~" H 10750 3400 50  0001 C CNN
 	1    10750 3400
 	1    0    0    -1  
@@ -950,10 +951,10 @@ Wire Wire Line
 Wire Wire Line
 	10450 3300 10550 3300
 $Comp
-L power:+5V #PWR015
+L power:+5V #PWR09
 U 1 1 5BC1FA8F
 P 8150 2950
-F 0 "#PWR015" H 8150 2800 50  0001 C CNN
+F 0 "#PWR09" H 8150 2800 50  0001 C CNN
 F 1 "+5V" H 8165 3123 50  0000 C CNN
 F 2 "" H 8150 2950 50  0001 C CNN
 F 3 "" H 8150 2950 50  0001 C CNN
@@ -961,7 +962,7 @@ F 3 "" H 8150 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7650 3650 0    50   ~ 0
-IN4
+IN5
 Wire Wire Line
 	7800 3650 7650 3650
 Wire Wire Line
@@ -969,10 +970,10 @@ Wire Wire Line
 Wire Wire Line
 	10000 3700 10000 3750
 $Comp
-L Relay:SANYOU_SRD_Form_C K7
+L Relay:SANYOU_SRD_Form_C K5
 U 1 1 5BC1FA99
 P 9800 3400
-F 0 "K7" H 9800 3900 50  0000 L CNN
+F 0 "K5" H 9800 3900 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 9500 3800 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 10250 3350 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 9800 3400 50  0001 C CNN
@@ -997,10 +998,10 @@ Connection ~ 9300 3050
 Wire Wire Line
 	9600 4250 9600 4300
 $Comp
-L Device:R R2
+L Device:R R11
 U 1 1 5BC7EFE6
 P 1300 5000
-F 0 "R2" V 1200 4950 50  0000 L CNN
+F 0 "R11" V 1200 4950 50  0000 L CNN
 F 1 "1000" V 1300 4900 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 1230 5000 50  0001 C CNN
 F 3 "~" H 1300 5000 50  0001 C CNN
@@ -1008,10 +1009,10 @@ F 3 "~" H 1300 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Device:R R12
 U 1 1 5BC7EFED
 P 2200 5850
-F 0 "R4" V 2100 5850 50  0000 C CNN
+F 0 "R12" V 2100 5850 50  0000 C CNN
 F 1 "510" V 2200 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2130 5850 50  0001 C CNN
 F 3 "~" H 2200 5850 50  0001 C CNN
@@ -1019,10 +1020,10 @@ F 3 "~" H 2200 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_ALT D5
+L Device:D_ALT D6
 U 1 1 5BC7EFF4
 P 2450 5200
-F 0 "D5" V 2400 5000 50  0000 L CNN
+F 0 "D6" V 2400 5000 50  0000 L CNN
 F 1 "1N4148" V 2500 4850 50  0000 L CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 2450 5200 50  0001 C CNN
 F 3 "~" H 2450 5200 50  0001 C CNN
@@ -1030,10 +1031,10 @@ F 3 "~" H 2450 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Isolator:PC817 U2
+L Isolator:PC817 U6
 U 1 1 5BC7EFFB
 P 1650 5350
-F 0 "U2" H 1650 5675 50  0000 C CNN
+F 0 "U6" H 1650 5675 50  0000 C CNN
 F 1 "PC817" H 1650 5584 50  0000 C CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 1450 5150 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1650 5350 50  0001 L CNN
@@ -1041,10 +1042,10 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1650 5350 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q2
+L Transistor_BJT:S8050 Q6
 U 1 1 5BC7F002
 P 2650 5850
-F 0 "Q2" H 2841 5896 50  0000 L CNN
+F 0 "Q6" H 2841 5896 50  0000 L CNN
 F 1 "S8050" H 2841 5805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 5775 50  0001 L CIN
 F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 2650 5850 50  0001 L CNN
@@ -1052,10 +1053,10 @@ F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 2650 5850 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D2
+L Device:LED_ALT IN6
 U 1 1 5BC7F010
 P 1100 5450
-F 0 "D2" H 1100 5550 50  0000 C CNN
+F 0 "IN6" H 1100 5550 50  0000 C CNN
 F 1 "LED ROJO SMD" H 1100 5650 50  0000 C CNN
 F 2 "LED_SMD:LED_1206_3216Metric" H 1100 5450 50  0001 C CNN
 F 3 "~" H 1100 5450 50  0001 C CNN
@@ -1079,10 +1080,10 @@ Wire Wire Line
 Wire Wire Line
 	2450 5850 2350 5850
 $Comp
-L power:GND #PWR08
+L power:GND #PWR016
 U 1 1 5BC7F01F
 P 2750 6100
-F 0 "#PWR08" H 2750 5850 50  0001 C CNN
+F 0 "#PWR016" H 2750 5850 50  0001 C CNN
 F 1 "GND" H 2755 5927 50  0000 C CNN
 F 2 "" H 2750 6100 50  0001 C CNN
 F 3 "" H 2750 6100 50  0001 C CNN
@@ -1096,12 +1097,12 @@ Wire Wire Line
 Wire Wire Line
 	2750 5550 2750 5650
 $Comp
-L Connector_Generic:Conn_01x03 J3
+L Connector_Generic:Conn_01x03 J7
 U 1 1 5BC7F028
 P 3900 5200
-F 0 "J3" H 3850 5550 50  0000 L CNN
+F 0 "J7" H 3850 5550 50  0000 L CNN
 F 1 "Bornera" H 3750 5450 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 3900 5200 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 3900 5200 50  0001 C CNN
 F 3 "~" H 3900 5200 50  0001 C CNN
 	1    3900 5200
 	1    0    0    -1  
@@ -1129,10 +1130,10 @@ Wire Wire Line
 Wire Wire Line
 	3600 5100 3700 5100
 $Comp
-L power:+5V #PWR05
+L power:+5V #PWR013
 U 1 1 5BC7F03A
 P 1300 4750
-F 0 "#PWR05" H 1300 4600 50  0001 C CNN
+F 0 "#PWR013" H 1300 4600 50  0001 C CNN
 F 1 "+5V" H 1315 4923 50  0000 C CNN
 F 2 "" H 1300 4750 50  0001 C CNN
 F 3 "" H 1300 4750 50  0001 C CNN
@@ -1140,7 +1141,7 @@ F 3 "" H 1300 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 800  5450 0    50   ~ 0
-IN3
+IN6
 Wire Wire Line
 	950  5450 800  5450
 Wire Wire Line
@@ -1148,10 +1149,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 5500 3150 5550
 $Comp
-L Relay:SANYOU_SRD_Form_C K2
+L Relay:SANYOU_SRD_Form_C K6
 U 1 1 5BC7F044
 P 2950 5200
-F 0 "K2" H 2950 5700 50  0000 L CNN
+F 0 "K6" H 2950 5700 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 2650 5600 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 3400 5150 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 2950 5200 50  0001 C CNN
@@ -1176,10 +1177,10 @@ Connection ~ 2450 4850
 Wire Wire Line
 	2750 6050 2750 6100
 $Comp
-L Device:R R8
+L Device:R R13
 U 1 1 5BC7F05A
 P 4700 5000
-F 0 "R8" V 4600 4950 50  0000 L CNN
+F 0 "R13" V 4600 4950 50  0000 L CNN
 F 1 "1000" V 4700 4900 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4630 5000 50  0001 C CNN
 F 3 "~" H 4700 5000 50  0001 C CNN
@@ -1187,10 +1188,10 @@ F 3 "~" H 4700 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R10
+L Device:R R14
 U 1 1 5BC7F061
 P 5600 5850
-F 0 "R10" V 5500 5850 50  0000 C CNN
+F 0 "R14" V 5500 5850 50  0000 C CNN
 F 1 "510" V 5600 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5530 5850 50  0001 C CNN
 F 3 "~" H 5600 5850 50  0001 C CNN
@@ -1198,10 +1199,10 @@ F 3 "~" H 5600 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_ALT D10
+L Device:D_ALT D7
 U 1 1 5BC7F068
 P 5850 5200
-F 0 "D10" V 5800 5000 50  0000 L CNN
+F 0 "D7" V 5800 5000 50  0000 L CNN
 F 1 "1N4148" V 5900 4850 50  0000 L CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 5850 5200 50  0001 C CNN
 F 3 "~" H 5850 5200 50  0001 C CNN
@@ -1209,10 +1210,10 @@ F 3 "~" H 5850 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Isolator:PC817 U5
+L Isolator:PC817 U7
 U 1 1 5BC7F06F
 P 5050 5350
-F 0 "U5" H 5050 5675 50  0000 C CNN
+F 0 "U7" H 5050 5675 50  0000 C CNN
 F 1 "PC817" H 5050 5584 50  0000 C CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 4850 5150 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5050 5350 50  0001 L CNN
@@ -1220,10 +1221,10 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5050 5350 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q5
+L Transistor_BJT:S8050 Q7
 U 1 1 5BC7F076
 P 6050 5850
-F 0 "Q5" H 6241 5896 50  0000 L CNN
+F 0 "Q7" H 6241 5896 50  0000 L CNN
 F 1 "S8050" H 6241 5805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6250 5775 50  0001 L CIN
 F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 6050 5850 50  0001 L CNN
@@ -1231,10 +1232,10 @@ F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 6050 5850 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D8
+L Device:LED_ALT IN7
 U 1 1 5BC7F084
 P 4500 5450
-F 0 "D8" H 4500 5550 50  0000 C CNN
+F 0 "IN7" H 4500 5550 50  0000 C CNN
 F 1 "LED ROJO SMD" H 4500 5650 50  0000 C CNN
 F 2 "LED_SMD:LED_1206_3216Metric" H 4500 5450 50  0001 C CNN
 F 3 "~" H 4500 5450 50  0001 C CNN
@@ -1258,10 +1259,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 5850 5750 5850
 $Comp
-L power:GND #PWR013
+L power:GND #PWR017
 U 1 1 5BC7F093
 P 6150 6100
-F 0 "#PWR013" H 6150 5850 50  0001 C CNN
+F 0 "#PWR017" H 6150 5850 50  0001 C CNN
 F 1 "GND" H 6155 5927 50  0000 C CNN
 F 2 "" H 6150 6100 50  0001 C CNN
 F 3 "" H 6150 6100 50  0001 C CNN
@@ -1275,12 +1276,12 @@ Wire Wire Line
 Wire Wire Line
 	6150 5550 6150 5650
 $Comp
-L Connector_Generic:Conn_01x03 J6
+L Connector_Generic:Conn_01x03 J8
 U 1 1 5BC7F09C
 P 7300 5200
-F 0 "J6" H 7250 5550 50  0000 L CNN
+F 0 "J8" H 7250 5550 50  0000 L CNN
 F 1 "Bornera" H 7150 5450 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 7300 5200 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 7300 5200 50  0001 C CNN
 F 3 "~" H 7300 5200 50  0001 C CNN
 	1    7300 5200
 	1    0    0    -1  
@@ -1308,7 +1309,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 5100 7100 5100
 Text Label 4200 5450 0    50   ~ 0
-IN2
+IN7
 Wire Wire Line
 	4350 5450 4200 5450
 Wire Wire Line
@@ -1316,10 +1317,10 @@ Wire Wire Line
 Wire Wire Line
 	6550 5500 6550 5550
 $Comp
-L Relay:SANYOU_SRD_Form_C K5
+L Relay:SANYOU_SRD_Form_C K7
 U 1 1 5BC7F0B8
 P 6350 5200
-F 0 "K5" H 6350 5700 50  0000 L CNN
+F 0 "K7" H 6350 5700 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 6050 5600 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 6800 5150 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 6350 5200 50  0001 C CNN
@@ -1344,10 +1345,10 @@ Connection ~ 5850 4850
 Wire Wire Line
 	6150 6050 6150 6100
 $Comp
-L Device:R R13
+L Device:R R15
 U 1 1 5BC7F0CE
 P 8150 5000
-F 0 "R13" V 8050 4950 50  0000 L CNN
+F 0 "R15" V 8050 4950 50  0000 L CNN
 F 1 "1000" V 8150 4900 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 8080 5000 50  0001 C CNN
 F 3 "~" H 8150 5000 50  0001 C CNN
@@ -1366,10 +1367,10 @@ F 3 "~" H 9050 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_ALT D16
+L Device:D_ALT D8
 U 1 1 5BC7F0DC
 P 9300 5200
-F 0 "D16" V 9250 5000 50  0000 L CNN
+F 0 "D8" V 9250 5000 50  0000 L CNN
 F 1 "1N4148" V 9350 4850 50  0000 L CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 9300 5200 50  0001 C CNN
 F 3 "~" H 9300 5200 50  0001 C CNN
@@ -1399,10 +1400,10 @@ F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 9500 5850 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D13
+L Device:LED_ALT IN8
 U 1 1 5BC7F0F8
 P 7950 5450
-F 0 "D13" H 7950 5550 50  0000 C CNN
+F 0 "IN8" H 7950 5550 50  0000 C CNN
 F 1 "LED ROJO SMD" H 7950 5650 50  0000 C CNN
 F 2 "LED_SMD:LED_1206_3216Metric" H 7950 5450 50  0001 C CNN
 F 3 "~" H 7950 5450 50  0001 C CNN
@@ -1426,10 +1427,10 @@ Wire Wire Line
 Wire Wire Line
 	9300 5850 9200 5850
 $Comp
-L power:GND #PWR019
+L power:GND #PWR018
 U 1 1 5BC7F107
 P 9600 6100
-F 0 "#PWR019" H 9600 5850 50  0001 C CNN
+F 0 "#PWR018" H 9600 5850 50  0001 C CNN
 F 1 "GND" H 9605 5927 50  0000 C CNN
 F 2 "" H 9600 6100 50  0001 C CNN
 F 3 "" H 9600 6100 50  0001 C CNN
@@ -1448,7 +1449,7 @@ U 1 1 5BC7F110
 P 10750 5200
 F 0 "J9" H 10700 5550 50  0000 L CNN
 F 1 "Bornera" H 10600 5450 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 10750 5200 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 10750 5200 50  0001 C CNN
 F 3 "~" H 10750 5200 50  0001 C CNN
 	1    10750 5200
 	1    0    0    -1  
@@ -1476,10 +1477,10 @@ Wire Wire Line
 Wire Wire Line
 	10450 5100 10550 5100
 $Comp
-L power:+5V #PWR016
+L power:+5V #PWR015
 U 1 1 5BC7F122
 P 8150 4750
-F 0 "#PWR016" H 8150 4600 50  0001 C CNN
+F 0 "#PWR015" H 8150 4600 50  0001 C CNN
 F 1 "+5V" H 8165 4923 50  0000 C CNN
 F 2 "" H 8150 4750 50  0001 C CNN
 F 3 "" H 8150 4750 50  0001 C CNN
@@ -1487,7 +1488,7 @@ F 3 "" H 8150 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7650 5450 0    50   ~ 0
-IN1
+IN8
 Wire Wire Line
 	7800 5450 7650 5450
 Wire Wire Line
@@ -1535,10 +1536,10 @@ Wire Wire Line
 Wire Wire Line
 	700  7050 700  6850
 $Comp
-L power:+5V #PWR01
+L power:+5V #PWR019
 U 1 1 5BD1FFBA
 P 700 6850
-F 0 "#PWR01" H 700 6700 50  0001 C CNN
+F 0 "#PWR019" H 700 6700 50  0001 C CNN
 F 1 "+5V" H 715 7023 50  0000 C CNN
 F 2 "" H 700 6850 50  0001 C CNN
 F 3 "" H 700 6850 50  0001 C CNN
@@ -1602,10 +1603,10 @@ Wire Notes Line
 Wire Notes Line
 	500  4500 11150 4500
 $Comp
-L power:+5V #PWR011
+L power:+5V #PWR014
 U 1 1 5BC7F0AE
 P 4700 4750
-F 0 "#PWR011" H 4700 4600 50  0001 C CNN
+F 0 "#PWR014" H 4700 4600 50  0001 C CNN
 F 1 "+5V" H 4715 4923 50  0000 C CNN
 F 2 "" H 4700 4750 50  0001 C CNN
 F 3 "" H 4700 4750 50  0001 C CNN
@@ -1628,20 +1629,106 @@ Wire Wire Line
 	7350 850  7350 950 
 Wire Wire Line
 	2600 850  2600 950 
-Text Notes 5500 2300 0    79   ~ 16
-Rele n°8\n
+Text Notes 5550 2450 0    79   ~ 16
+Rele n°1\n\n
 Text Notes 10500 2300 0    79   ~ 16
-Rele n°7
-Text Notes 3350 4350 0    79   ~ 16
-Rele n°6
-Text Notes 6800 4350 0    79   ~ 16
-Rele n°5
-Text Notes 10500 4350 0    79   ~ 16
-Rele n°4\n
-Text Notes 3350 6250 0    79   ~ 16
-Rele n°3
-Text Notes 6800 6250 0    79   ~ 16
 Rele n°2\n
-Text Notes 10500 6250 0    79   ~ 16
-Rele n°1\n
+Text Notes 3350 4350 0    79   ~ 16
+Rele n°3
+Text Notes 6800 4350 0    79   ~ 16
+Rele n°4\n
+Text Notes 10500 4350 0    79   ~ 16
+Rele n°5\n
+Text Notes 3350 6250 0    79   ~ 16
+Rele n°6\n
+Text Notes 6800 6250 0    79   ~ 16
+Rele n°7\n
+Text Notes 10500 6400 0    79   ~ 16
+Rele n°8\n\n
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5BA78630
+P 1400 2000
+F 0 "#FLG02" H 1400 2075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 2173 50  0000 C CNN
+F 2 "" H 1400 2000 50  0001 C CNN
+F 3 "~" H 1400 2000 50  0001 C CNN
+	1    1400 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5BA7896A
+P 1400 800
+F 0 "#FLG01" H 1400 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 974 50  0000 C CNN
+F 2 "" H 1400 800 50  0001 C CNN
+F 3 "~" H 1400 800 50  0001 C CNN
+	1    1400 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1000 1400 1000
+Wire Wire Line
+	1400 1000 1400 800 
+Connection ~ 1100 1000
+Wire Wire Line
+	1100 1900 1400 1900
+Wire Wire Line
+	1400 1900 1400 2000
+Connection ~ 1100 1900
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5BAA4418
+P 3250 6850
+F 0 "MH1" H 3350 6896 50  0000 L CNN
+F 1 "MountingHole" H 3350 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 3250 6850 50  0001 C CNN
+F 3 "~" H 3250 6850 50  0001 C CNN
+	1    3250 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5BAA49A8
+P 4200 6850
+F 0 "MH2" H 4300 6896 50  0000 L CNN
+F 1 "MountingHole" H 4300 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 4200 6850 50  0001 C CNN
+F 3 "~" H 4200 6850 50  0001 C CNN
+	1    4200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5BAA4ABC
+P 3250 7300
+F 0 "MH3" H 3350 7346 50  0000 L CNN
+F 1 "MountingHole" H 3350 7255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 3250 7300 50  0001 C CNN
+F 3 "~" H 3250 7300 50  0001 C CNN
+	1    3250 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH4
+U 1 1 5BAA4BD9
+P 4200 7300
+F 0 "MH4" H 4300 7346 50  0000 L CNN
+F 1 "MountingHole" H 4300 7255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 4200 7300 50  0001 C CNN
+F 3 "~" H 4200 7300 50  0001 C CNN
+	1    4200 7300
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3050 6600 3050 7650
+Wire Notes Line
+	3050 7650 5000 7650
+Wire Notes Line
+	5000 7650 5000 6600
+Wire Notes Line
+	5000 6600 3050 6600
+Text Notes 3300 7600 0    50   ~ 10
+AGUJEROS DE SUJECION DE LA PLACA\n
 $EndSCHEMATC
