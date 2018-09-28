@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/matias/Descargas/Especializacion en Sistemas Embebidos/Diseño de Circuitos Impresos/Practica/CESE-6Co2018_PCB/Replica_Reles.sch")
-    (date "Sat 22 Sep 2018 11:17:45 -03")
+    (date "Fri 28 Sep 2018 19:35:23 -03")
     (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
