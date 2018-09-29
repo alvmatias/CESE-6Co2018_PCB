@@ -470,7 +470,7 @@
       (net 74 "Net-(J1-Pad2)"))
     (model ${KIPRJMOD}/3d-models/SRD-xxVDC-SL-C.wrl
       (offset (xyz 8 0 0))
-      (scale (xyz 0.41 0.4 0.4))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -534,7 +534,7 @@
       (net 21 "Net-(J2-Pad2)"))
     (model ${KIPRJMOD}/3d-models/SRD-xxVDC-SL-C.wrl
       (offset (xyz 8 0 0))
-      (scale (xyz 0.41 0.4 0.4))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -598,7 +598,7 @@
       (net 24 "Net-(J4-Pad2)"))
     (model ${KIPRJMOD}/3d-models/SRD-xxVDC-SL-C.wrl
       (offset (xyz 8 0 0))
-      (scale (xyz 0.41 0.4 0.4))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -662,7 +662,7 @@
       (net 27 "Net-(J5-Pad2)"))
     (model ${KIPRJMOD}/3d-models/SRD-xxVDC-SL-C.wrl
       (offset (xyz 8 0 0))
-      (scale (xyz 0.41 0.4 0.4))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -726,7 +726,7 @@
       (net 9 "Net-(D5-Pad2)"))
     (model ${KIPRJMOD}/3d-models/SRD-xxVDC-SL-C.wrl
       (offset (xyz 8 0 0))
-      (scale (xyz 0.41 0.4 0.4))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -790,7 +790,7 @@
       (net 10 "Net-(D6-Pad2)"))
     (model ${KIPRJMOD}/3d-models/SRD-xxVDC-SL-C.wrl
       (offset (xyz 8 0 0))
-      (scale (xyz 0.41 0.4 0.4))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -854,7 +854,7 @@
       (net 11 "Net-(D7-Pad2)"))
     (model ${KIPRJMOD}/3d-models/SRD-xxVDC-SL-C.wrl
       (offset (xyz 8 0 0))
-      (scale (xyz 0.41 0.4 0.4))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
