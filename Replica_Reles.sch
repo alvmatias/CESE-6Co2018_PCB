@@ -59,7 +59,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2950 1450 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q1
+L Device:Q_NPN_BEC Q1
 U 1 1 5BA4F7BD
 P 3950 1950
 F 0 "Q1" H 4141 1996 50  0000 L CNN
@@ -79,17 +79,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 800 1400 50  
 F 3 "~" H 800 1400 50  0001 C CNN
 	1    800  1400
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper JP1
-U 1 1 5BA50437
-P 1200 7050
-F 0 "JP1" H 1200 7314 50  0000 C CNN
-F 1 "VCC      JD-VCC" H 1250 7200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1200 7050 50  0001 C CNN
-F 3 "~" H 1200 7050 50  0001 C CNN
-	1    1200 7050
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
@@ -255,7 +244,7 @@ U 1 1 5BA4DF94
 P 4250 1300
 F 0 "K1" H 4250 1800 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 3950 1700 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 4700 1250 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 4700 1250 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 4250 1300 50  0001 C CNN
 	1    4250 1300
 	1    0    0    -1  
@@ -326,7 +315,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7700 1450 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q2
+L Device:Q_NPN_BEC Q2
 U 1 1 5BC08FFC
 P 8700 1950
 F 0 "Q2" H 8891 1996 50  0000 L CNN
@@ -438,7 +427,7 @@ U 1 1 5BC0903E
 P 9000 1300
 F 0 "K2" H 9000 1800 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 8700 1700 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 9450 1250 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 9450 1250 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 9000 1300 50  0001 C CNN
 	1    9000 1300
 	1    0    0    -1  
@@ -505,7 +494,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1650 3550 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q3
+L Device:Q_NPN_BEC Q3
 U 1 1 5BC0CC95
 P 2650 4050
 F 0 "Q3" H 2841 4096 50  0000 L CNN
@@ -617,7 +606,7 @@ U 1 1 5BC0CCD7
 P 2950 3400
 F 0 "K3" H 2950 3900 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 2650 3800 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 3400 3350 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 3400 3350 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 2950 3400 50  0001 C CNN
 	1    2950 3400
 	1    0    0    -1  
@@ -684,7 +673,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5050 3550 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q4
+L Device:Q_NPN_BEC Q4
 U 1 1 5BC1910B
 P 6050 4050
 F 0 "Q4" H 6241 4096 50  0000 L CNN
@@ -796,7 +785,7 @@ U 1 1 5BC1914D
 P 6350 3400
 F 0 "K4" H 6350 3900 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 6050 3800 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 6800 3350 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 6800 3350 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 6350 3400 50  0001 C CNN
 	1    6350 3400
 	1    0    0    -1  
@@ -863,7 +852,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8500 3550 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q5
+L Device:Q_NPN_BEC Q5
 U 1 1 5BC1FA57
 P 9500 4050
 F 0 "Q5" H 9691 4096 50  0000 L CNN
@@ -975,7 +964,7 @@ U 1 1 5BC1FA99
 P 9800 3400
 F 0 "K5" H 9800 3900 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 9500 3800 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 10250 3350 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 10250 3350 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 9800 3400 50  0001 C CNN
 	1    9800 3400
 	1    0    0    -1  
@@ -1042,7 +1031,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1650 5350 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q6
+L Device:Q_NPN_BEC Q6
 U 1 1 5BC7F002
 P 2650 5850
 F 0 "Q6" H 2841 5896 50  0000 L CNN
@@ -1154,7 +1143,7 @@ U 1 1 5BC7F044
 P 2950 5200
 F 0 "K6" H 2950 5700 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 2650 5600 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 3400 5150 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 3400 5150 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 2950 5200 50  0001 C CNN
 	1    2950 5200
 	1    0    0    -1  
@@ -1221,7 +1210,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5050 5350 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q7
+L Device:Q_NPN_BEC Q7
 U 1 1 5BC7F076
 P 6050 5850
 F 0 "Q7" H 6241 5896 50  0000 L CNN
@@ -1322,7 +1311,7 @@ U 1 1 5BC7F0B8
 P 6350 5200
 F 0 "K7" H 6350 5700 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 6050 5600 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 6800 5150 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 6800 5150 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 6350 5200 50  0001 C CNN
 	1    6350 5200
 	1    0    0    -1  
@@ -1389,7 +1378,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8500 5350 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q8
+L Device:Q_NPN_BEC Q8
 U 1 1 5BC7F0EA
 P 9500 5850
 F 0 "Q8" H 9691 5896 50  0000 L CNN
@@ -1501,7 +1490,7 @@ U 1 1 5BC7F12C
 P 9800 5200
 F 0 "K8" H 9800 5700 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 9500 5600 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 10250 5150 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 10250 5150 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 9800 5200 50  0001 C CNN
 	1    9800 5200
 	1    0    0    -1  
@@ -1531,25 +1520,8 @@ Wire Notes Line
 	1900 7600 1900 6500
 Wire Notes Line
 	1900 6500 550  6500
-Wire Wire Line
-	900  7050 700  7050
-Wire Wire Line
-	700  7050 700  6850
-$Comp
-L power:+5V #PWR019
-U 1 1 5BD1FFBA
-P 700 6850
-F 0 "#PWR019" H 700 6700 50  0001 C CNN
-F 1 "+5V" H 715 7023 50  0000 C CNN
-F 2 "" H 700 6850 50  0001 C CNN
-F 3 "" H 700 6850 50  0001 C CNN
-	1    700  6850
-	1    0    0    -1  
-$EndComp
-Text Label 1800 7050 2    50   ~ 0
+Text Label 1250 6850 2    50   ~ 0
 JD-VCC
-Wire Wire Line
-	1500 7050 1800 7050
 Wire Wire Line
 	1900 4750 2100 4750
 Text Label 1900 4750 0    50   ~ 0
@@ -1582,8 +1554,6 @@ Wire Wire Line
 	5300 2950 5500 2950
 Text Label 5300 2950 0    50   ~ 0
 JD-VCC
-Text Notes 850  7400 0    50   ~ 10
-JUMPER \nALIMENTACION RELES \nA VCC\n
 Wire Notes Line
 	6200 500  6200 2450
 Wire Notes Line
@@ -1731,4 +1701,49 @@ Wire Notes Line
 	5000 6600 3050 6600
 Text Notes 3300 7600 0    50   ~ 10
 AGUJEROS DE SUJECION DE LA PLACA\n
+Text Notes 1100 7550 0    50   ~ 10
+JUMPER \nALIMENTACION RELES \nA VCC\n
+$Comp
+L Connector_Generic:Conn_01x03 J10
+U 1 1 5BB7A675
+P 750 6950
+F 0 "J10" H 670 7267 50  0000 C CNN
+F 1 "Conn_01x03" H 670 7176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 750 6950 50  0001 C CNN
+F 3 "~" H 750 6950 50  0001 C CNN
+	1    750  6950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6950 1650 6950
+Wire Wire Line
+	1650 6950 1650 6850
+$Comp
+L power:+5V #PWR0101
+U 1 1 5BBFDDD1
+P 1650 6850
+F 0 "#PWR0101" H 1650 6700 50  0001 C CNN
+F 1 "+5V" H 1665 7023 50  0000 C CNN
+F 2 "" H 1650 6850 50  0001 C CNN
+F 3 "" H 1650 6850 50  0001 C CNN
+	1    1650 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6850 1250 6850
+Wire Wire Line
+	950  7050 1650 7050
+Wire Wire Line
+	1650 7050 1650 7150
+$Comp
+L power:GND #PWR0102
+U 1 1 5BC5719E
+P 1650 7150
+F 0 "#PWR0102" H 1650 6900 50  0001 C CNN
+F 1 "GND" H 1655 6977 50  0000 C CNN
+F 2 "" H 1650 7150 50  0001 C CNN
+F 3 "" H 1650 7150 50  0001 C CNN
+	1    1650 7150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
