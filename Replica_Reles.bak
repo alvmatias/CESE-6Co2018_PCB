@@ -59,7 +59,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2950 1450 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q1
+L Device:Q_NPN_BEC Q1
 U 1 1 5BA4F7BD
 P 3950 1950
 F 0 "Q1" H 4141 1996 50  0000 L CNN
@@ -315,7 +315,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7700 1450 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q2
+L Device:Q_NPN_BEC Q2
 U 1 1 5BC08FFC
 P 8700 1950
 F 0 "Q2" H 8891 1996 50  0000 L CNN
@@ -494,7 +494,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1650 3550 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q3
+L Device:Q_NPN_BEC Q3
 U 1 1 5BC0CC95
 P 2650 4050
 F 0 "Q3" H 2841 4096 50  0000 L CNN
@@ -673,7 +673,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5050 3550 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q4
+L Device:Q_NPN_BEC Q4
 U 1 1 5BC1910B
 P 6050 4050
 F 0 "Q4" H 6241 4096 50  0000 L CNN
@@ -852,7 +852,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8500 3550 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q5
+L Device:Q_NPN_BEC Q5
 U 1 1 5BC1FA57
 P 9500 4050
 F 0 "Q5" H 9691 4096 50  0000 L CNN
@@ -1031,7 +1031,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1650 5350 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q6
+L Device:Q_NPN_BEC Q6
 U 1 1 5BC7F002
 P 2650 5850
 F 0 "Q6" H 2841 5896 50  0000 L CNN
@@ -1210,7 +1210,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5050 5350 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q7
+L Device:Q_NPN_BEC Q7
 U 1 1 5BC7F076
 P 6050 5850
 F 0 "Q7" H 6241 5896 50  0000 L CNN
@@ -1378,7 +1378,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8500 5350 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q8
+L Device:Q_NPN_BEC Q8
 U 1 1 5BC7F0EA
 P 9500 5850
 F 0 "Q8" H 9691 5896 50  0000 L CNN
