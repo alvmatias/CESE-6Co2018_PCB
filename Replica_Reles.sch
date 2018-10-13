@@ -1694,11 +1694,7 @@ $EndComp
 Wire Notes Line
 	2250 6500 2250 7550
 Wire Notes Line
-	2250 7550 4200 7550
-Wire Notes Line
 	4200 7550 4200 6500
-Wire Notes Line
-	4200 6500 2250 6500
 Text Notes 2500 7500 0    50   ~ 10
 AGUJEROS DE SUJECION DE LA PLACA\n
 Text Notes 1100 7550 0    50   ~ 10
@@ -1746,4 +1742,23 @@ F 3 "" H 1650 7150 50  0001 C CNN
 	1    1650 7150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole F1
+U 1 1 5BC35A07
+P 4500 7000
+F 0 "F1" H 4600 7046 50  0000 L CNN
+F 1 "Fiducial" H 4600 6955 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 4500 7000 50  0001 C CNN
+F 3 "~" H 4500 7000 50  0001 C CNN
+	1    4500 7000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5000 6500 5000 7550
+Wire Notes Line
+	2250 7550 5000 7550
+Wire Notes Line
+	2250 6500 5000 6500
+Text Notes 4350 7500 0    50   ~ 10
+FIDUCIALES DE \nLA PLACA\n
 $EndSCHEMATC
