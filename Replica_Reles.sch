@@ -232,8 +232,8 @@ U 1 1 5BA4DF94
 P 4250 1300
 F 0 "K1" H 4250 1850 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 3950 1750 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 4700 1250 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 4250 1300 50  0001 C CNN
+F 2 "SONGLE_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 4700 1250 50  0001 L CNN
+F 3 "http://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf" H 4250 1300 50  0001 C CNN
 	1    4250 1300
 	1    0    0    -1  
 $EndComp
@@ -403,8 +403,8 @@ U 1 1 5BC0903E
 P 9000 1300
 F 0 "K2" H 9000 1850 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 8700 1750 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 9450 1250 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 9000 1300 50  0001 C CNN
+F 2 "SONGLE_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 9450 1250 50  0001 L CNN
+F 3 "http://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf" H 9000 1300 50  0001 C CNN
 	1    9000 1300
 	1    0    0    -1  
 $EndComp
@@ -570,8 +570,8 @@ U 1 1 5BC0CCD7
 P 2950 3400
 F 0 "K3" H 2950 3950 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 2650 3850 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 3400 3350 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 2950 3400 50  0001 C CNN
+F 2 "SONGLE_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 3400 3350 50  0001 L CNN
+F 3 "http://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf" H 2950 3400 50  0001 C CNN
 	1    2950 3400
 	1    0    0    -1  
 $EndComp
@@ -737,8 +737,8 @@ U 1 1 5BC1914D
 P 6350 3400
 F 0 "K4" H 6350 3950 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 6050 3850 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 6800 3350 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 6350 3400 50  0001 C CNN
+F 2 "SONGLE_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 6800 3350 50  0001 L CNN
+F 3 "http://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf" H 6350 3400 50  0001 C CNN
 	1    6350 3400
 	1    0    0    -1  
 $EndComp
@@ -904,8 +904,8 @@ U 1 1 5BC1FA99
 P 9800 3400
 F 0 "K5" H 9800 3950 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 9500 3850 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 10250 3350 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 9800 3400 50  0001 C CNN
+F 2 "SONGLE_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 10250 3350 50  0001 L CNN
+F 3 "http://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf" H 9800 3400 50  0001 C CNN
 	1    9800 3400
 	1    0    0    -1  
 $EndComp
@@ -1073,8 +1073,8 @@ U 1 1 5BC7F044
 P 2950 5200
 F 0 "K6" H 2950 5750 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 2650 5650 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 3400 5150 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 2950 5200 50  0001 C CNN
+F 2 "SONGLE_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 3400 5150 50  0001 L CNN
+F 3 "http://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf" H 2950 5200 50  0001 C CNN
 	1    2950 5200
 	1    0    0    -1  
 $EndComp
@@ -1385,8 +1385,8 @@ U 1 1 5BC7F12C
 P 9800 5200
 F 0 "K8" H 9800 5750 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 9500 5650 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 10250 5150 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 9800 5200 50  0001 C CNN
+F 2 "SONGLE_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 10250 5150 50  0001 L CNN
+F 3 "http://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf" H 9800 5200 50  0001 C CNN
 	1    9800 5200
 	1    0    0    -1  
 $EndComp
@@ -1680,8 +1680,8 @@ U 1 1 5BC7F0B8
 P 6350 5200
 F 0 "K7" H 6350 5750 50  0000 L CNN
 F 1 "SONGLE_SRD_Form_C" H 6050 5650 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 6800 5150 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 6350 5200 50  0001 C CNN
+F 2 "SONGLE_THT:Relay_SPDT_SONGLE_SRD_Series_Form_C" H 6800 5150 50  0001 L CNN
+F 3 "http://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf" H 6350 5200 50  0001 C CNN
 	1    6350 5200
 	1    0    0    -1  
 $EndComp
