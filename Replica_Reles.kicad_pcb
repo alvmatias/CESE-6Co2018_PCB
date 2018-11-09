@@ -15,7 +15,7 @@
     (date 2018-10-31)
     (rev 1.2)
     (company "Ing. Matias Alvarez")
-    (comment 1 "Licencia: CERN OHL")
+    (comment 1 "Licencia: CERN OHL v1.2")
   )
 
   (layers
